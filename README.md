@@ -24,8 +24,60 @@ Same shit at "withdraw":
 
 <img src="https://image.ibb.co/jcsx3T/yobit_withdraw_plc.png" alt="yobit_withdraw_plc" border="0">
 
-You can mine this shitcoin too if you know what you are doing - you have to convert the address to a coinbase legacy address.
-
 ... will update and mv->forum/gist if there interest outta there ... dont trust these scammers ... buy the original ... buy [Bitcoin](https://github.com/bitcoin/bitcoin) or [Litecoin](https://github.com/litecoin-project/litecoin)
 
 #### cheerz
+
+### UPDATE:
+
+... a lot of questions since my last sneek into this shitcoin ... hope this will help:
+
+1. dont wonder if you cannot [compare](https://github.com/platincoin-project/platincoin/compare/master...coinnoob:master) the fork - the "developers" made a new init to avoid that - but there is no change in the code ;)
+
+2. there is NO POS (Proof of Stake) - its a simply [cryptonight pos](https://github.com/coinnoob/platincoin_scam/blob/master/src/crypto/CryptoNight.cpp#L25L37)! you can find the function (mining) [here](https://github.com/coinnoob/platincoin_scam/blob/master/src/miner.cpp#L132L229).
+
+2. dont buy the plc "miniting" box - complete scam (inside info). in best case its a full node to spread that shitcoin. its NOT possible to mine/mint coins with this box! this shitcoin is a PREMINED coin - that means (in that special case) 600.000.000 shitcoins "mined" in the first 100 blocks!
+
+### THE PROOF:
+
+first of all - a full synced node (over tor bc anon matters):
+
+<img src="https://image.ibb.co/n6RFMK/plc_getinfo.png" alt="plc_getinfo" border="0">
+
+... now you can explore the first block with the txid inclusive
+
+<img src="https://image.ibb.co/kq3y8z/plc_getblock_1.png" alt="plc_getblock_1" border="0">
+
+... so you can see - 6.000.000 premined coins in the first block
+
+<img src="https://image.ibb.co/dP8vMK/plc_first_block.png" alt="plc_first_block" border="0">
+
+... the same the 99 next "blocks" (here block 100):
+
+<img src="https://image.ibb.co/bSBFMK/plc_block_100.png" alt="plc_block_100" border="0">
+
+... and the last 6 mio output at block 100:
+
+<img src="https://image.ibb.co/e6KwTz/plc_6mio_block100.png" alt="plc_6mio_block100" border="0">
+
+... since block 101 the [mining reward](https://github.com/coinnoob/platincoin_scam/blob/master/src/miner.cpp#L195L199) is 0.005.
+
+<img src="https://image.ibb.co/c3xfMK/plc_block_101.png" alt="plc_block_101" border="0">
+
+... and the output:
+
+<img src="https://image.ibb.co/cn4wTz/plc_txid_101.png" alt="plc_txid_101" border="0">
+
+### CONCLUSION
+
+6 mio * 100 * 5 USD @ yobit.net >> more $$$ than god.
+
+if you buy this "minting box" you will simply get a couple of the shitcoins by the owner of the premined coins - such simple is that!
+
+### todo
+
+I dont have time 4 this repo - if someone have new infos - feel free to commit (remember - will merge it only with proof attached!!)
+
+### cheerz
+
+
