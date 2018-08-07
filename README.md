@@ -34,7 +34,7 @@ Same shit at "withdraw":
 
 1. dont wonder if you cannot [compare](https://github.com/platincoin-project/platincoin/compare/master...coinnoob:master) the fork - the "developers" made a new init to avoid that - but there is no change in the code ;)
 
-2. there is NO POS (Proof of Stake) - its a simply [cryptonight pos](https://github.com/coinnoob/platincoin_scam/blob/master/src/crypto/CryptoNight.cpp#L25L37)! you can find the function (mining) [here](https://github.com/coinnoob/platincoin_scam/blob/master/src/miner.cpp#L132L229).
+2. there is NO [Proof of Stake](https://en.wikipedia.org/wiki/Proof-of-stake) (PoS) - its a simply [cryptonight PoW](https://github.com/coinnoob/platincoin_scam/blob/master/src/crypto/CryptoNight.cpp#L25L37)! you can find the function (mining) [here](https://github.com/coinnoob/platincoin_scam/blob/master/src/miner.cpp#L132L229).
 
 2. dont buy the plc "miniting" box - complete scam (inside info). in best case its a full node to spread that shitcoin. its NOT possible to mine/mint coins with this box! this shitcoin is a PREMINED coin - that means (in that special case) 600.000.000 shitcoins "mined" in the first 100 blocks!
 
