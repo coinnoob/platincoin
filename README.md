@@ -28,7 +28,7 @@ Same shit at "withdraw":
 
 #### cheerz
 
-### UPDATE:
+### UPDATE (2018/08/07):
 
 ... a lot of questions since my last sneek into this shitcoin ... hope this will help:
 
@@ -78,6 +78,16 @@ if you buy this "minting box" you will simply get a couple of the shitcoins by t
 
 I dont have time 4 this repo - if someone have new infos - feel free to commit (remember - will merge it only with proof attached!!)
 
-### cheerz
+#### cheerz
 
 ... sorry 4 typos ;)
+
+### UPDATE (2018/08/08):
+
+because of false information - mining works of course (here @testnet):
+
+<img src="https://image.ibb.co/mpgSmK/plc_mining_debug.png" alt="plc_mining_debug" border="0">
+
+<img src="https://image.ibb.co/imNYRK/plc_mining_overview.png" alt="plc_mining_overview" border="0">
+
+#### cheerz
